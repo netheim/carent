@@ -1,0 +1,50 @@
+.sliderContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .mainImage {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    height: 360px;
+
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  .thumbnailSwiper {
+    width: 100%;
+    max-width: 550px;
+
+
+
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+
+      img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        cursor: pointer;
+        border: 2px solid transparent;
+        border-radius: 8px;
+        transition: border 0.3s;
+
+        &:hover {
+          border-color: #007aff;
+        }
+      }
+
+      .activeThumbnail {
+        border: 1px solid #007aff;
+
+      }
+    }
+  }
+}

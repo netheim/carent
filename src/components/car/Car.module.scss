@@ -1,0 +1,88 @@
+
+.carItem {
+  width: 304px;
+  height: 388px;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 24px;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+  .carItemTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+
+    .mainInfo {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+
+      .name {
+        font-size: 20px;
+        font-weight: 600;
+        color: #1A202C;
+
+      }
+
+      .type {
+        font-size: 14px;
+        color: #90A3BF;
+        font-weight: 500;
+      }
+    }
+
+  }
+
+  .carItemMid {
+
+  }
+
+  .carItemBot {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+
+    .about {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .aboutItem {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+
+        .info {
+          font-size: 14px;
+          color: #90A3BF;
+
+        }
+      }
+    }
+
+    .rent {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .rentPrice {
+        color: #1A202C;
+        font-weight: 600;
+        font-size: 20px;
+
+
+
+        .day {
+          font-size: 14px;
+          color: #90A3BF;
+        }
+      }
+    }
+  }
+}

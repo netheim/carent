@@ -1,0 +1,95 @@
+
+
+.filterBlock {
+  margin: 32px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+
+  .filter {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 582px;
+    height: 136px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 26px 52px;
+
+
+    label {
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+
+      input {
+        margin-right: 6px;
+        accent-color: #3563E9;
+        width: 16px;
+        height: 16px;
+      }
+    }
+
+    .fields {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+
+      .field {
+
+        .fieldSelect {
+
+          font-size: 12px;
+          color: #90A3BF;
+          padding: 8px 45px 8px 0;
+          border: 0;
+          background: transparent;
+          outline: none;
+
+
+          &:focus {
+            border-color: #007bff;
+          }
+
+        }
+
+
+      }
+
+
+      .field:nth-of-type(2) {
+        padding: 0 0 0 30px;
+        border-right: 1px solid #C3D4E9;
+        border-left: 1px solid #C3D4E9;
+      }
+
+      .fieldsTitle {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 150%;
+
+      }
+
+
+    }
+  }
+
+  .swapButton {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      transform: rotate(180deg);
+    }
+  }
+}

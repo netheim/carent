@@ -1,0 +1,272 @@
+.rentPage {
+  background-color: #F6F7F9;
+  width: 100%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  .rentInner {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+
+    .rentBlock {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      width: 852px;
+
+      .billingInfo {
+        width: 100%;
+        height: 336px;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 24px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+
+
+        }
+      .fields {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+
+        .fieldItem {
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+
+          .fieldName {
+            font-size: 16px;
+            color: #1A202C;
+            font-weight: 600;
+          }
+        }
+      }
+
+      .rentalInfo {
+        width: 100%;
+        height: 664px;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 24px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+
+        .action {
+          display: flex;
+          flex-direction: column;
+          gap: 24px;
+
+          .radio {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            font-size: 16px;
+            font-weight: 600;
+            color: #1A202C;
+          }
+
+
+        }
+      }
+
+      .confirm {
+        padding: 24px;
+        width: 852px;
+        height: 484px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+        .agree {
+          display: flex;
+          flex-direction: column;
+          gap: 24px;
+          margin-top: 32px;
+          margin-bottom: 32px;
+
+          .agreeItem {
+            width: 100%;
+            height: 56px;
+            background-color: #F6F7F9;
+            border-radius: 10px;
+            color: #1F2544;
+            font-size: 16px;
+            padding: 18px 34px;
+
+            display: flex;
+            gap: 22px;
+            align-items: center;
+          }
+        }
+
+        .safe {
+          margin-top: 32px;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+
+          .safeTitle {
+            font-size: 16px;
+            color: #1A202C;
+          }
+
+          .safeInfo {
+            font-size: 14px;
+            color: #90A3BF;
+          }
+        }
+      }
+
+    }
+
+    .total {
+      width: 420px;
+      height: 560px;
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      
+      .totalTitle {
+
+        .title {
+          font-size: 20px;
+          color: #1A202C;
+          margin-bottom: 8px;
+        }
+
+        .info {
+          font-size: 14px;
+          color: #90A3BF;
+        }
+
+
+      }
+      .carInfo {
+        display: flex;
+
+        gap: 16px;
+        align-items: center;
+        
+        .carName {
+          font-size: 32px;
+          color: #1A202C;
+          margin-bottom: 5px;
+        }
+        .reviews {
+          display: flex;
+          gap: 10px;
+          align-items: center;
+
+          .stars {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+          }
+
+          .count {
+            color: #596780;
+            font-size: 14px;
+          }
+        } 
+      }
+      
+      .line {
+        width: 100%;
+        height: 1px;
+        background-color: #C3D4E9;
+      }
+
+      .priceBlock {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+
+        .priceItem {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          .priceName {
+            font-size: 16px;
+            color: #90A3BF;
+          }
+
+          .priceValue {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1A202C;
+          }
+        }
+      }
+
+      .promoCode {
+        position: relative;
+        width: 100%;
+        height: 56px;
+
+
+        .applyBtn {
+          background: transparent;
+          border: none;
+          cursor: pointer;
+          font-size: 16px;
+          color: #1A202C;
+          font-weight: 600;
+          height: 100%;
+          z-index: 2;
+          position: absolute;
+          top: 0;
+          right: 24px;
+
+          transition: color .2s ease-in-out;
+
+          &:hover {
+            color: #007aff;
+          }
+
+        }
+      }
+
+      .totalPrice {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .priceAbout {
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+
+          .title {
+            font-size: 20px;
+            color: #1A202C;
+          }
+          
+          .info {
+            font-size: 14px;
+            color: #90A3BF;
+          }
+        }
+      }
+    }
+  }
+
+}

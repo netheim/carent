@@ -1,0 +1,35 @@
+.grayInput {
+  width: 386px;
+  height: 56px;
+  background-color: #F6F7F9;
+  border-radius: 10px;
+  border: 0;
+  outline: none;
+
+  color: #90A3BF;
+  font-size: 14px;
+  padding: 16px 16px 16px 32px;
+
+  &::placeholder {
+    color: #90A3BF;
+    font-size: 14px;
+  }
+}
+
+.whiteInput {
+  width: 362px;
+  height: 56px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 0;
+  outline: none;
+
+  color: #90A3BF;
+  font-size: 14px;
+  padding: 16px 16px 16px 32px;
+
+  &::placeholder {
+    color: #90A3BF;
+    font-size: 14px;
+  }
+}

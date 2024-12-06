@@ -1,0 +1,14 @@
+.categoriesBlock {
+  display: flex;
+  justify-content: space-between;
+
+
+  .categories {
+    width: 100%;
+    background-color: #F6F7F9;
+    padding: 27px 123px 0 123px;
+    display: flex;
+    flex-direction: column;
+
+  }
+}

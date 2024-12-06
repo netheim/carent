@@ -1,0 +1,125 @@
+{
+  "cars": [
+
+    {
+      "id": 1,
+      "name": "Koenigsegg",
+      "type": "Sport",
+      "volume": "90L",
+      "manual": "Manual",
+      "count": "2 People",
+      "price": "99.00",
+      "image": "/cars/koenigsegg.png"
+    },
+    {
+      "id": 2,
+      "name": "Nissan GT-R",
+      "type": "Sport",
+      "volume": "80L",
+      "manual": "Manual",
+      "count": "2 People",
+      "price": "80.00",
+      "image": "/cars/nissan.png"
+    },
+    {
+      "id": 3,
+      "name": "Rolls-Royce",
+      "type": "Sport",
+      "volume": "70L",
+      "manual": "Manual",
+      "count": "4 People",
+      "price": "96.00",
+      "image": "/cars/rolls.png"
+    },
+    {
+      "id": 4,
+      "name": "Nissan GT-R",
+      "type": "Sport",
+      "volume": "80L",
+      "manual": "Manual",
+      "count": "2 People",
+      "price": "80.00",
+      "image": "/cars/nissan2.png"
+    },
+    {
+      "id": 5,
+      "name": "All New Rush",
+      "type": "Sport",
+      "volume": "90L",
+      "manual": "Manual",
+      "count": "2 People",
+      "price": "99.00",
+      "image": "/cars/rush.png"
+    },
+    {
+      "id": 6,
+      "name": "CR-V",
+      "type": "SUV",
+      "volume": "80L",
+      "manual": "Manual",
+      "count": "6 People",
+      "price": "80.00",
+      "image": "/cars/cr-v.png"
+    },
+    {
+      "id": 7,
+      "name": "All New Terios",
+      "type": "SUV",
+      "volume": "90L",
+      "manual": "Manual",
+      "count": "6 People",
+      "price": "74.00",
+      "image": "/cars/terios.png"
+    },
+    {
+      "id": 8,
+      "name": "CR-V",
+      "type": "SUV",
+      "volume": "80L",
+      "manual": "Manual",
+      "count": "6 People",
+      "price": "80.00",
+      "image": "/cars/cr-v2.png"
+    },
+    {
+      "id": 9,
+      "name": "MG ZX Exclusive",
+      "type": "Hatchback",
+      "volume": "70L",
+      "manual": "Manual",
+      "count": "4 People",
+      "price": "76.00",
+      "image": "/cars/mgzx.png"
+    },
+    {
+      "id": 10,
+      "name": "New MG ZS",
+      "type": "SUV",
+      "volume": "80L",
+      "manual": "Manual",
+      "count": "6 People",
+      "price": "80.00",
+      "image": "/cars/mgzs.png"
+    },
+    {
+      "id": 11,
+      "name": "MG ZX Excite",
+      "type": "Hatchback",
+      "volume": "90L",
+      "manual": "Manual",
+      "count": "4 People",
+      "price": "74.00",
+      "image": "/cars/mgzx.png"
+    },
+    {
+      "id": 12,
+      "name": "New MG ZS",
+      "type": "SUV",
+      "volume": "80L",
+      "manual": "Manual",
+      "count": "6 People",
+      "price": "80.00",
+      "image": "/cars/mgzs2.png"
+    }
+  ]
+}

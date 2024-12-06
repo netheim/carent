@@ -1,0 +1,96 @@
+.payment {
+  width: 100%;
+
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+  .methods {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 20px;
+
+
+    .method {
+      opacity: 1;
+      min-height: 75px;
+      max-height: 75px;
+      overflow: hidden;
+      white-space: nowrap;
+
+
+      transform-origin: top;
+      transition: all 0.4s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      background-color: #F6F7F9;
+      border-radius: 10px;
+      padding: 28px;
+
+
+      .methodTitle {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5px;
+
+        .methodName {
+          font-size: 16px;
+          color: #1A202C;
+        }
+      }
+      .methodInner {
+        margin-top: 20px;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.4s ease-in-out;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 85px;
+        gap: 32px;
+
+        .fieldItem {
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+
+          .fieldName {
+            font-size: 16px;
+            color: #1A202C;
+            font-weight: 600;
+          }
+        }
+      }
+
+      .active {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+
+    .active {
+      opacity: 1;
+      min-height: 308px; // Увеличьте для большего контента
+      transform: scaleY(1);
+    }
+  }
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+
+

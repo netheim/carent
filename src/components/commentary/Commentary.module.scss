@@ -1,0 +1,60 @@
+.commentaryBlock {
+  width: 100%;
+  height: 124px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+
+  .userMark {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .user {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+
+      .userInfo {
+        display: flex;
+        flex-direction: column;
+        height: 56px;
+        justify-content: space-between;
+
+        .name {
+          font-size: 20px;
+          color: #1A202C;
+
+        }
+        .work {
+          font-size: 14px;
+          color: #90A3BF;
+        }
+      }
+    }
+
+    .mark {
+      .date {
+        font-size: 14px;
+        color: #90A3BF;
+
+      }
+      .stars {
+        margin-top: 8px;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+      }
+    }
+  }
+
+  .comment {
+    padding-left: 73px;
+    color: #90A3BF;
+    width: 100%;
+    line-height: 200%;
+    font-size: 14px;
+  }
+}

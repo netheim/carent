@@ -1,0 +1,26 @@
+.graySelectBlock {
+  width: 386px;
+  height: 56px;
+  background-color: #F6F7F9;
+  border-radius: 10px;
+
+}
+
+.graySelect {
+  width: 361px;
+  height: 56px;
+  background-color: #F6F7F9;
+  border-radius: 10px;
+  border: 0;
+  outline: none;
+
+  color: #90A3BF;
+  font-size: 14px;
+  padding: 0 16px;
+
+  &::placeholder {
+    color: #90A3BF;
+    font-size: 14px;
+  }
+
+}

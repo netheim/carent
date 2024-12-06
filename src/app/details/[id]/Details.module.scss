@@ -1,0 +1,188 @@
+
+.detailsBlock {
+  display: flex;
+  justify-content: space-between;
+
+
+  .filterBar {
+    padding: 32px 32px;
+    width: 360px;
+
+  }
+  
+  .details {
+    width: 100%;
+    background-color: #F6F7F9;
+    padding: 27px 123px 0 123px;
+    display: flex;
+    flex-direction: column;
+
+
+    .carDetails {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 32px;
+
+
+      .carInfo {
+        width: 550px;
+        height: 508px;
+        padding: 24px;
+        background-color: #fff;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .infoFirst {
+          display: flex;
+          justify-content: space-between;
+
+          .nameAndReviews {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+
+            .carName {
+              font-size: 32px;
+              color: #1A202C;
+              font-weight: 600;
+            }
+
+            .reviews {
+              display: flex;
+              gap: 10px;
+              align-items: center;
+
+              .stars {
+                display: flex;
+                align-items: center;
+                gap: 4px;
+              }
+
+              .count {
+                color: #596780;
+                font-size: 14px;
+              }
+            }
+          }
+        }
+
+        .infoSecond {
+          width: 100%;
+          font-size: 20px;
+          color: #596780;
+          line-height: 200%;
+          text-align: justify;
+        }
+
+        .infoThird {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 30px;
+
+          .feature {
+            display: flex;
+            justify-content: space-between;
+            width: 225px;
+            align-items: center;
+
+            .title {
+              font-size: 20px;
+              color: #90A3BF;
+            }
+            
+            .value {
+              font-size: 20px;
+              color: #596780;
+              font-weight: 500;
+            }
+          }
+        }
+
+        .infoFourth {
+          .rent {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .rentPrice {
+              color: #1A202C;
+              font-weight: 600;
+              font-size: 26px;
+
+
+
+              .day {
+                font-size: 16px;
+                color: #90A3BF;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .commentaries {
+      border-radius: 10px;
+      margin-top: 32px;
+      margin-bottom: 42px;
+      width: 100%;
+      height: 452px;
+      background-color: #fff;
+      padding: 24px;
+
+      .titleBlock {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+
+        .title {
+          font-size: 20px;
+          color: #1A202C;
+          font-weight: 500;
+        }
+
+        .count {
+          width: 44px;
+          height: 28px;
+          border-radius: 4px;
+          background-color: #3563E9;
+          color: #ffffff;
+          font-size: 14px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-weight: 600;
+        }
+      }
+    }
+
+    .comments {
+      margin-top: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+  }
+  .button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 34px;
+
+    .showAll {
+      font-size: 16px;
+      color: #90A3BF;
+      border: 0;
+      background: transparent;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+  }
+}
